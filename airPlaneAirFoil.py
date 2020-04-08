@@ -20,9 +20,8 @@
 #*   USA                                                                   *
 #*                                                                         *
 #***************************************************************************
-# Modificaiotn by F. Nivoix to integrate
-# in Airplane workbench 2019 -
-# V0.1, V0.2 & V0.3
+# Modificaiotn by F. Nivoix to integrate in Airplane workbench 2019 -
+# V0.1, V0.2, V0.3 & V0.4
 #***************************************************************************
 
 import FreeCAD,FreeCADGui,Part,re

@@ -22,7 +22,8 @@
 __title__="FreeCAD airPlaneRib"
 __author__ = "F. Nivoix"
 __url__ = "https://fredsfactory.fr"
-
+__contributors__ = "adrianinsaval"
+__created__ = "2019"
 
 import FreeCAD,Part
 
