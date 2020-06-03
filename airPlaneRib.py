@@ -230,7 +230,6 @@ class ViewProviderWingRib:
         FreeCADGui.Control.showDialog(taskd)
         return True
 
-
 class CommandWingRib:
     "the WingPanel command definition"
     def GetResources(self):
