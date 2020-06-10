@@ -26,6 +26,7 @@
 #***************************************************************************
 
 import FreeCAD,FreeCADGui,Part,re
+from FreeCAD import Base
 FreeCADGui.addLanguagePath(":/translations")
 
 # Qt translation handling
@@ -124,5 +125,8 @@ def process(filename,scale,posX,posY,posZ,rotX,rotY,rotZ,useSpline,splitSpline,c
                 lines.append(Part.makeLine(last_v, first_v))
         wire = Part.Wire(lines)
 
-    face = Part.Face(wire).scale(scale) #Scale the foil
+    #face = Part.Face(wire).scale(scale) #Scale the foil, # issue31 doesn't work with v0.18
+    myScale = Base.Matrix() # issue31
+    myScale.scale(scale,scale,scale)# issue31
+    face=face.transformGeometry(myScale)# issue31
     return face, coords
