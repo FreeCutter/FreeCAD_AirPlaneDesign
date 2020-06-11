@@ -64,7 +64,8 @@ V0.4 :
 - [X] Add Preview profil and sheet
 - [X] Implement rib thickness and NACA finite TE by adrianinsaval
 - [X] Improve wing design UI
-- [ ] UI/UX : TaskPanelfor Plane, Wing, Wing panel & Rib
+- [ ] UI/UX : TaskPanel for Plane, Wing, Wing panel & Rib
+- [ ] Wing panel type : trapeze or Spline
 - [ ] Improve RIB file selection 
 - [ ] Import profil from UIUC Airfoil Database
 - [ ] Add ability to translate workbench
